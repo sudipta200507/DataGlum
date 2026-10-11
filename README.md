@@ -8,7 +8,7 @@ DataGlum focuses on one of the most repetitive parts of ML engineering: turning 
 
 ## Cleaning Pipeline
 
-`text
+```text
 CSV Upload
     ↓
 Schema Inspection
@@ -24,7 +24,7 @@ Outlier Processing
 Column-name Normalization
     ↓
 Clean Dataset
-`
+```
 
 ## Automated Checks
 
@@ -52,7 +52,7 @@ Clean Dataset
 
 ## Architecture
 
-`text
+```text
 Frontend
    ↓
 FastAPI
@@ -62,7 +62,7 @@ Data Cleaning Engine
 Pandas DataFrame
    ↓
 Processed CSV
-`
+```
 
 ## Engineering Focus
 
@@ -77,12 +77,12 @@ The project is useful for exploring:
 
 ## Project Structure
 
-`text
+```text
 dataglum/
 ├── dataglum.html
 ├── csv_cleaner_api.py
 └── README.md
-`
+```
 
 ## Status
 
